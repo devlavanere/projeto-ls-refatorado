@@ -1,0 +1,68 @@
+.main {
+    background-image: url("../img/login.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  
+#voltar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    border-bottom: 2px dotted #ffffff;
+    border-radius: 1rem;
+    padding: 0.5rem;
+  }
+  
+#titulo {
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+#formulario {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+  }
+  
+.item-form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+  
+.item-form label {
+    color: #ffffff;
+    font-size: 1.2rem;
+  }
+  
+.item-form input {
+    background-color: #ffffff;
+    width: 200px;
+    text-align: center;
+    padding: 0.4rem;
+    border: 2px solid #c8c8c8;
+    border-radius: 1rem;
+    font-size: 1rem;
+  }
+  
+  .item-form #confirmar {
+    background-color: #008a00;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 3rem;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .item-form #confirmar:hover {
+    background-color: #00ae00;
+  }
+
